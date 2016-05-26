@@ -1,6 +1,7 @@
 # jsqrencode
 Updated version of jsqrencode (https://code.google.com/archive/p/jsqrencode/)
 
+From the original author:
 >Fast QR encoding entirely in javascript as a HTML5 canvas webapp
 >
 >There are lots of web pages, but I couldn't find a webapp. And I wrote a very compact implementation for the Arduino, so I'm trying a port. It takes 5 seconds on a 2G iPod touch to do the maximum size.
