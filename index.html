@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-touch-fullscreen" content="yes" />
+<style type="text/css">
+  body {background:lightgray;}
+</style>
+<script src="/js/qrenc-4.0.0.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+function doqr() {
+	d = document;
+	var qr = new QR(document.getElementById('qrcanv'), d.qrinp.qrinput.value, 400, 400, d.qrinp.ECC.value);
+}
+</script>
+</head>
+<body>
+<div>
+	Javascript QR Encoder, Copyright 2010, tz@execpc.com, released under GPLv3
+	<form name="qrinp">
+		<input type="button" value="Go" onclick="doqr()"/>
+		ECC Level (1-4)
+		<input type="numeric" name="ECC" value="1" size="1"><br>
+		Text:<textarea name="qrinput" size=2953>Hello World!</textarea><br>
+	</form>
+	<canvas id="qrcanv">No Canvas Support?</canvas>
+</div>
+</body>
+</html>
+
