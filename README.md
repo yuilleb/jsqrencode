@@ -1,5 +1,5 @@
 # jsqrencode
-Updated version of jsqrencode (https://code.google.com/archive/p/jsqrencode/)
+This project is an updated version of jsqrencode (https://code.google.com/archive/p/jsqrencode/). jsqrencode is a pure javascript library for generating QR codes onto HTML5 canvas elements.
 
 From the original author:
 >Fast QR encoding entirely in javascript as a HTML5 canvas webapp
